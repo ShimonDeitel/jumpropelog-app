@@ -1,0 +1,33 @@
+{
+  "identifier" : "Jumpropelog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : { "_storeKitErrors" : [] },
+  "subscriptionGroups" : [
+    {
+      "id" : "jumpropelog_group",
+      "localizations" : [],
+      "name" : "Jumpropelog Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "jumpropelog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            { "description" : "Skip-rate trend charts and personal-best tracking", "displayName" : "Jumpropelog Pro", "locale" : "en_US" }
+          ],
+          "productID" : "com.shimondeitel.jumpropelog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Jumpropelog Pro Monthly",
+          "subscriptionGroupID" : "jumpropelog_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : { "major" : 3, "minor" : 0 }
+}
